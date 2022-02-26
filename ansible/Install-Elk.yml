@@ -1,4 +1,4 @@
-#FYAML
+#YAML
 ---
 
 - name: Configure Elk VM with Docker
