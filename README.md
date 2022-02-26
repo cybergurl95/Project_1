@@ -129,6 +129,10 @@ SSH into the control node and follow the steps below:
 - Update the filebeat.yml file to include...
 - Run the playbook, and navigate to http://13.78.148.179:5601/app/kibana#/home to check that the installation worked as expected.  (Screenshot)
 
+![Kibana Metricbeat](https://user-images.githubusercontent.com/93356171/155827203-fd403887-58a5-44df-a102-0648cda04e5f.png)
+![Kibana ](https://user-images.githubusercontent.com/93356171/155827231-47fb3e92-804d-4a3c-b5cc-cd6d96d00d0c.png)
+
+
 : Answer the following questions to fill in the blanks:_
 
 - Which file is the playbook? Ansible-playbook files   
