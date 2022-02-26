@@ -5,7 +5,7 @@ Rice University Cybersecurity Bootcamp Project 1
 ## Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
 
-https://drive.google.com/drive/folders/1NUGp-J6qxbQM84Sux2qksKS3FDvrsuHY?usp=sharing
+https://github.com/cybergurl95/Project_1/blob/main/diagrams/Project-1-Diagram.png
 
 - pentest-yml.png
 - filebeat-playbook-yml.png
@@ -103,7 +103,8 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-https://drive.google.com/drive/folders/1NUGp-J6qxbQM84Sux2qksKS3FDvrsuHY?usp=sharing
+
+https://github.com/cybergurl95/Project_1/blob/main/diagrams/Copy%20of%20Docker_ps_output.png
 - docker_ps_output.png
 
 ### Target Machines & Beats
