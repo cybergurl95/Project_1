@@ -75,9 +75,9 @@ What was its IP address?
 A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box |   Yes              | 40.122.144.11    |
-|          |                                |                            |
-|          |                                |                            |
+| Jump Box |   Yes               | 40.122.144.11        |
+|          |                     |                      |
+|          |                     |                      |
 
 
 ### Elk Configuration
@@ -104,8 +104,8 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/cybergurl95/Project_1/blob/main/diagrams/Copy%20of%20Docker_ps_output.png
-- docker_ps_output.png
+https://github.com/cybergurl95/Project_1/blob/main/diagrams/sudo%20docker%20ps.png
+- sudo docker ps
 
 ### Target Machines & Beats
 
