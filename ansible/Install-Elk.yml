@@ -1,6 +1,5 @@
 #FYAML
 ---
-
 - name: Configure Elk VM with Docker
   hosts: elk
   remote_user: azureuser
