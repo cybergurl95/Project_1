@@ -150,5 +150,11 @@ Which URL do you navigate to in order to check that the ELK server is running?
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
 -For creating the filebeat-configuration.yml file: I have to nano into the filebeat-configuration.yml. Afterwards, I filled in the filebeat configuration template with the necessary information: 
+![Filebeat-playbook yml](https://user-images.githubusercontent.com/93356171/155871340-8300d7b2-1bf7-4660-8696-7fdad67d3e9b.png)
 
+The command to run the playbook: ansible-playbook filebeat-playbook.yml
+When running the playbook, you have to be in the exact directory that the playbook is in and write the path (/etc/ansible/roles/filebeat-playbook.yml)
 
+*Metricbeat File*
+For creating the metricbeat-configuration.yml file: I have to nano into the metricbeat-configuration.yml. Afterwards, I filled in the metricbeat configuration template with the necessary information:
+![Metricbeat-playbook yml](https://user-images.githubusercontent.com/93356171/155872241-bd78a397-8559-41d6-b506-fcf806e14df1.png)
