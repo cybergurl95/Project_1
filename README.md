@@ -5,7 +5,7 @@ Rice University Cybersecurity Bootcamp Project 1
 ## Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/cybergurl95/Project_1/blob/main/diagrams/Project-1-Diagram.png
+![Project-1-Diagram](https://user-images.githubusercontent.com/93356171/155870641-a1934b36-0ac1-45c9-9547-552f2409fcdb.png)
 
 - pentest-yml.png
 - filebeat-playbook-yml.png
@@ -49,14 +49,14 @@ What does Metricbeat record?
 The configuration details of each machine may be found below.
 
 
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
-| Name     | Function | IP Address  | Operating System |
-|----------|----------|-------------|------------------|
-| Jump Box| Gateway  | 10.0.0.9    | Linux           |
-| ELK       | Gateway  |13.78.148.179|Linux          |
-| Web-1    | LBalancer| FTE-IP      | Linux            |
-| Web-2    | LBalancer| FTE-IP      | Linux            |
-| Web-3    | LBalancer| FTE-IP      | Linux            |
+-Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+| Name    | Function | IP Address    | Operating System |
+|---------|----------|---------------|------------------|
+| JumpBox | Gateway  | 10.0.0.9      | Linux            |
+| ELK     | Gateway  | 13.78.148.179 | Linux            |
+| Web-1   | LoadBal  | FTE-IP        | Linux            |
+| Web-2   | LoadBal  | FTE-IP        | Linux            |
+| Web-3   | LoadBal  | FTE-IP        | Linux            |
 
 
 ### Access Policies
@@ -104,7 +104,8 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/cybergurl95/Project_1/blob/main/diagrams/sudo%20docker%20ps.png
+![sudo docker ps](https://user-images.githubusercontent.com/93356171/155871127-ef629c42-cc4b-4eed-bb85-f4ae287739ed.png)
+
 - sudo docker ps
 
 ### Target Machines & Beats
@@ -148,3 +149,12 @@ Which URL do you navigate to in order to check that the ELK server is running?
 
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
+-For creating the filebeat-configuration.yml file: I have to nano into the filebeat-configuration.yml. Afterwards, I filled in the filebeat configuration template with the necessary information: 
+![Filebeat-playbook yml](https://user-images.githubusercontent.com/93356171/155871340-8300d7b2-1bf7-4660-8696-7fdad67d3e9b.png)
+
+The command to run the playbook: ansible-playbook filebeat-playbook.yml
+When running the playbook, you have to be in the exact directory that the playbook is in and write the path (/etc/ansible/roles/filebeat-playbook.yml)
+
+*Metricbeat File*
+For creating the metricbeat-configuration.yml file: I have to nano into the metricbeat-configuration.yml. Afterwards, I filled in the metricbeat configuration template with the necessary information:
+![Metricbeat-playbook yml](https://user-images.githubusercontent.com/93356171/155872241-bd78a397-8559-41d6-b506-fcf806e14df1.png)
