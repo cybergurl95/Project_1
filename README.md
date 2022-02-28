@@ -67,7 +67,7 @@ Only the Elk machine can accept connections from the Internet. Access to this ma
 - 13.78.148.179
 
 Machines within the network can only be accessed by Jumpbox via SSH & Private Pre-Shared Key. Which machine did you allow to access your ELK VM? 
--Jumpbox
+-Jumpbox Provisioner
 
 What was its IP address?
 - 40.122.144.11 (Jumpbox Public)
@@ -75,10 +75,7 @@ What was its IP address?
 A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box |   Yes               | 40.122.144.11        |
-|          |                     |                      |
-|          |                     |                      |
-
+| Jump-Box |        Yes          | 40.122.144.11        |
 
 ### Elk Configuration
 
