@@ -27,7 +27,7 @@ This document contains the following details:
 - How to Use the Ansible Build
 
 
-### Description of the Topology
+### Description of the Topology ###
 
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
@@ -141,7 +141,7 @@ SSH into the control node and follow the steps below:
 - Which file do you update to make Ansible run the playbook on a specific machine? hosts configuration file
 
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-- HostName in Host configuration file
+![Hosts yml](https://user-images.githubusercontent.com/93356171/155905944-4dcbbb5f-8327-41c7-86df-b86373a9589d.png)
 
 Which URL do you navigate to in order to check that the ELK server is running?
 - SSH aszureuser@10.0.0.15 (Web-1)
